@@ -1,0 +1,31 @@
+#note-container {
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+   }
+   
+   .red {
+       background-color: indianred;
+       cursor: pointer;
+   }
+   .center {
+       margin-top: 15px;
+       text-align: center;
+   }
+
+   .back-button {
+    background-color: #ffe4ec; /* pastel pink */
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #ffcad4; /* slightly deeper pastel pink */
+  }
+  

@@ -1,0 +1,37 @@
+.notes {
+  width: 80%
+}
+.notes li {
+margin-bottom: 20px;
+list-style: none;
+padding: 20px;
+background-color: #ffffff;
+border-radius: 15px;
+}
+button {
+width: 100%;
+border: none;
+background: none;
+padding: 20px;
+cursor: pointer;
+}
+nav button {
+  width: auto;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: #ffbfcb;
+  color: #ffffff;
+  font-size: 14px; /* slightly bigger text */
+  border: none;
+  text-decoration: none;
+  padding: 12px 24px; /* more space inside the button */
+  cursor: pointer;
+  font-weight: 500;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+nav button:hover {
+  background-color: #f79aab;
+  transform: translateY(-2px);
+}
